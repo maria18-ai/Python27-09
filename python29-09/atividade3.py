@@ -1,3 +1,5 @@
+// Programa para somar a diferença do menor e maior numero de uma lista em python
+
 valores = [1,4,3,6,2,8,9];
 
 maiorNum = max(valores)
