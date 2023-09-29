@@ -1,0 +1,3 @@
+9. O que e um dicionario? Qual é a principal diferença de um dicionario e uma tupla? 
+Resposta: Listas são conjunto de elementos mutáveis. Tuplas são como listas porém imutáveis. 
+Isto aumenta desempenho. Dicionário são utilizados quando agrupamos um conjunto de chave e valor.
