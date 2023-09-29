@@ -1,3 +1,5 @@
+// Programa para imprimar na tela um dicionario feito para um animalzinho
+
 gatinho = {
     'nome': 'Luna',
     'raça': 'Gato Preto',
