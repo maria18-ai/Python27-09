@@ -1,3 +1,5 @@
+// Programa para cripitografar uma mensagem escrita pelo usuario usando a Cifra de Cesar
+
 mensagem = input("Digite a mensagem que deseja criptografar: ")
 chave = int(input("Digite a chave de criptografia (um número inteiro): "))
 
