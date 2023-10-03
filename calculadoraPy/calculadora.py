@@ -1,4 +1,3 @@
-,
 # Função para a seleção do calculo
 
 def selecao() :
@@ -12,24 +11,34 @@ def selecao() :
 def soma(a,b) : 
     sum = a + b 
     print(sum)
+    return sum
 
 def sub(a,b) : 
     subi =  a - b
     print(subi)
+    return subi
 
 def mult(a,b) : 
     multp = a * b
     print(multp)
+    return multp 
 
 def div(a,b) : 
     divi = a / b
     print(divi)
+    return divi
+
+# Vaviavel de acesso para a variavel "opcao"
+op = 0
+
+# Vetor responsavel por armazenar os resultados do usuario
+
+resultado = 0
+vetor = []
 
 # Estrutura de repetição 
 
-op = 0
-
-while (op <= 4) :
+while (op <= 4 and op <= 10) :
 
     userNum1 = float(input("Digite o 1º número: "));
     userNum2 = float(input("Digite o 2º número: "));
@@ -37,15 +46,21 @@ while (op <= 4) :
     op = selecao()
    
     if op == 1 :
-       soma(userNum1, userNum2);
+       resultado = soma(userNum1, userNum2)       
     elif op == 2 : 
-       sub(userNum1, userNum2)
+       resultado = sub(userNum1, userNum2)
     elif op == 3 : 
-       mult(userNum1,userNum2)
+       resultado = mult(userNum1,userNum2)
     elif op == 4 :
-       div(userNum1, userNum2)
+       resultado = div(userNum1, userNum2)
     else : 
-        print("Saiu da Calculadora")
+        print("Saiu da Calculadora")      
+    vetor.append(resultado)   
+
+print("Vetor dos resultados: ")    
+for i in vetor : 
+    print(i, " ")
+       
        
        
         
